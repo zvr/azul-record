@@ -99,11 +99,11 @@ Spaces can occur anywhere in the line.
 
 For example, the following line:
 
-    A 2 lll 22-
+    A 2 rrr 22-
 
 This records that the first player
 picked from the second factory 
-three blue tiles,
+three red tiles,
 placed two of them on the second line
 and placed the third on the floor line.
 
@@ -145,6 +145,9 @@ was John Doe:
 
 Date of game
 ------------
+
+A metadata line starting with ``:date``
+can be used to denote the date a game took place.
 
 The following example records that the game took place
 on Christmas Day 2020:

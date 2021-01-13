@@ -1,0 +1,96 @@
+AZULGAME
+# a sample game, with two players:
+2
+# player info below:
+:A Alexios Zavras (zvr)
+:B CPU
+:date 2021-01-13
+# initial draw
+1llur 2oruu 3llku 4oorl 5oolk
+# first player takes two orange tiles from last factory
+#   and places them on the destination line of length 3
+# (the rest of the tiles from factory 5 are in the center, location "0")
+A 5 oo 33
+# second player takes two orange tiles from factory 4
+# spaces are optional
+B 4oo22
+# A picks a third orange tile from factory 2, and so on
+A 2o3
+B1u1
+A 0llll 4444
+# that was the first pick-up from the center,
+#   and the -1 was also picked by A and placed (no need to record this)
+B 0 rrr 333
+A 3ll 22
+B 0uuu 444
+# A now picks the last two black tiles from the center,
+#   places one in the first destination line and the other at the floor line
+A 0kk 1-
+# this concludes the firs turn
+# score (not recorded) is A: 3, B: 3
+#
+# new draw
+1krou 2llok 3koul 4oork 5kkuo
+# and the game goes on...
+A 2ll33
+B 5 kk 22
+A 3l3
+B 1u4
+A 0oooo 4444
+B0kkk333
+A 4oo22
+B 0k-
+: strange move, why not 0k1 ?
+# the above line is actual comment on the game
+A 0uu1-
+B 0rr1-
+# end of turn, A:12 B:14
+#
+# new draw
+1kuur 2llrk 3uurk 4rkol 5rrrr
+# note that there is no order in tiles above.
+#   for example, factories 1 and 3 have the same content
+A 4o1
+B5rrrr4444
+A 3uu22
+B 0l1
+A 1uu33
+B 2ll22
+A0 rrrr 4444
+B0 kkkk 5555
+# end of turn, A:20 B:30
+#
+# new draw
+1llor 2kkur 3kkro 4ukoo 5kkul
+# now B goes first, since he had the -1 last turn
+B1o1
+A 4oo55
+B 3o-
+A 0kkk444
+B 2u2
+A 5kk22
+B0uu2-
+A0kk4-
+B0lll333
+A0rrr1--
+# end of turn, A:35 B:45
+#
+# new draw
+1uuul 2oorl 3orru 4uull 5krlo
+A 2oo55
+B 3rr22
+A5o5
+B0k1
+A 0u3
+B1uuu333
+A0rr22
+B0lll444
+A4ll1-
+B0uu--
+: strange move. maybe 0o-
+A 0o-
+# end of turn and game
+# score without final counts: A:59, B:58
+# final score is:
+:score 80 62
+# and that's the end of the file

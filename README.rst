@@ -154,6 +154,17 @@ on Christmas Day 2020:
 
     :date 2020-12-25
 
+Final score
+-----------
+A metadata line starting with ``:score``
+can be used to record the final score of the game.
+The data are numbers, denoting the score of each player in sequence.
+
+The following example records that, in a three-player game,
+the first player won by a single point.
+
+    :score 78 66 77
+
 Commentary
 ----------
 

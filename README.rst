@@ -129,7 +129,7 @@ as the first character of the line.
 As with comments, they can be interspersed
 between data lines,
 although it makes sense to have them as a block
-at either the bginning or the end of the file.
+at either the beginning or the end of the file.
 
 Player names
 ------------

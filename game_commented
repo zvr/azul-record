@@ -19,7 +19,7 @@ A 2o3
 B1u1
 A 0llll 4444
 # that was the first pick-up from the center,
-#   and the -1 was also picked by A and placed (no need to record this)
+#   and the 1 tile was also picked by A and placed (no need to record this)
 B 0 rrr 333
 A 3ll 22
 B 0uuu 444
@@ -62,7 +62,7 @@ B0 kkkk 5555
 #
 # new draw
 1llor 2kkur 3kkro 4ukoo 5kkul
-# now B goes first, since he had the -1 last turn
+# now B goes first, since he had the 1 tile last turn
 B1o1
 A 4oo55
 B 3o-
